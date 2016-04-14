@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* Overlay Styles */
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+/* Popup */
+.popup {
+  background: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+  width: 560px;
+  /*Change your width here*/
+  height: 315px;
+  /*Change your height here*/
+  margin: auto;
+  /* Popup Inner */
+}
+@media (max-width: 768px) {
+  .popup {
+    width: 90%;
+    margin: auto 5%;
+  }
+  iframe {
+    width: 110%;
+  }
+}
+.popup .popup-inner {
+  position: fixed;
+  /* padding: 1em; */
+}
+.popup .popup-inner input.s3-btn-close {
+  position: absolute;
+  top: -0.5em;
+  right: -2.9em;
+  background: black;
+  border: solid 2px white;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+}
+/*************
+  S3 Button
+*************/
+input.s3-btn {
+  background: #f1f1f1;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.s3-center {
+  text-align: center;
+}
