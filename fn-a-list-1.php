@@ -5,7 +5,7 @@ function fnalist1($movieid, $i){
 return '
 <div class="first_div">
 <!-- THIS BUTTON CALLS AJAX SCRIPT -->
-<button id="showAjax" onclick="showAjaxStuff_'.$i.'();">Hinzufügen</button>
+<button id="showAjax" onclick="showAjaxStuff_'.$i.'();">Gelesen</button>
 </div>
 
 <div class="second_div" id="ajax_auto_'.$i.'">

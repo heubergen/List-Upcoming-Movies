@@ -8,18 +8,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="TODO">
-    <!-- Custom styles -->
+    <!-- Custom styles for table -->
     <link href="css/responsive_table.css" rel="stylesheet">
-    <link href="css/popup.css" rel="stylesheet">
   </head>
   <body>
           <a class="navbar-brand" href="index.php">Startpage</a>
 <?php
-      //load all required files
-      include 'check-new-data.php';
-        $set = $_GET['set'];
-        include 'readlist.php';
-        readlist($set);?>
+//load all required files
+include 'check-new-data.php';
+require 'load-data.php'; ?>
       <footer>
         <p>&copy;*Author*</p>
       </footer>

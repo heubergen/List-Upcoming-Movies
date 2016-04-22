@@ -32,5 +32,6 @@ return '
         xmlhttp.send();
 }
 </script>';
+    echo "$movieid";
     }
 ?>
