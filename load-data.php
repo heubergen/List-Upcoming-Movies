@@ -21,7 +21,7 @@
         include 'readlist.php';
         readlist($set);?>
       <footer>
-        <p>&copy;*Author*</p>
+        <p>&copy;heubergen</p>
       </footer>
   </body>
 </html>

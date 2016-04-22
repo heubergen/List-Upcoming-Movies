@@ -18,7 +18,7 @@
 include 'check-new-data.php';
 require 'load-data.php'; ?>
       <footer>
-        <p>&copy;*Author*</p>
+        <p>&copy;heubergen</p>
       </footer>
   </body>
 </html>
